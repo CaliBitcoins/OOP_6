@@ -5,6 +5,7 @@ public class VipPerson {
     private double creditLimit;
     private String email;
 
+    // USE IntelliJ to GENERATE Constructors, Getters, and Setters... Left click and select Generate from menu
     public VipPerson() {
         this("Unknown", 0.00, "unknown@legend.email");
     }
