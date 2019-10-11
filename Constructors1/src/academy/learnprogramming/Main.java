@@ -22,6 +22,15 @@ public class Main {
         swiss.deposit(500000000);
         swiss.withdraw(2000000000);
 
+        // USING VipPerson Constructors 
+        VipPerson person = new VipPerson();
+        System.out.println(person.getName());
+
+        VipPerson person1 = new VipPerson("Jake", 100.00);
+        System.out.println(person1.getName());
+
+        VipPerson person2 = new VipPerson("Bob", 10.00, "jake@legend.email");
+        System.out.println(person2.getCreditLimit());
 
     }
 }

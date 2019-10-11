@@ -15,6 +15,7 @@ public class BankAccount {
     }
 
     // OVERLOADED CONSTRUCTOR - No return type
+    // Do not call setters or other methods from constructor - RULE OF THUMB
     public BankAccount(String accountNumber, double balance, String customerName, String email, String phoneNumber) {
         this.accountNumber = accountNumber;
         this.balance = balance;
